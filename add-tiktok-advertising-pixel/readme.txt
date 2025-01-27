@@ -3,8 +3,8 @@ Contributors: the-rock, pagup, freemius
 Tags: Tiktok, Conversion, Pixel, Tiktok Pixel, Retargeting
 Requires at least: 4.1
 Requires PHP: 5.6
-Tested up to: 6.6
-Stable tag: 1.2.7
+Tested up to: 6.7
+Stable tag: 1.2.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -161,4 +161,7 @@ Enjoy !
 * 👌 IMPROVE: Updated Freemius to v2.5.3
 
 = 1.2.7 =
+* 🐛 FIX: Security fix
+
+= 1.2.8 =
 * 🐛 FIX: Security fix

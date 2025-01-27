@@ -2,25 +2,22 @@
 
 namespace Pagup\TiktokPixel\Controllers;
 
-use  Pagup\TiktokPixel\Core\Option ;
-use  Pagup\TiktokPixel\Core\Plugin ;
-use  Pagup\TiktokPixel\Core\Request ;
-class SettingsController
-{
-    public function add_settings()
-    {
+use Pagup\TiktokPixel\Core\Option;
+use Pagup\TiktokPixel\Core\Plugin;
+use Pagup\TiktokPixel\Core\Request;
+class SettingsController {
+    public function add_settings() {
         add_menu_page(
             __( 'TikTok Pixel Settings', 'add-tiktok-advertising-pixel' ),
             __( 'TikTok Pixel', 'add-tiktok-advertising-pixel' ),
             'manage_options',
             TTAP_NAME,
-            array( &$this, 'page' ),
+            array(&$this, 'page'),
             'dashicons-code-standards'
         );
     }
-    
-    public function page()
-    {
+
+    public function page() {
         $safe = [
             "allow",
             "settings",
@@ -33,7 +30,6 @@ class SettingsController
             array_push( $safe, "booster" );
         }
         $success = '';
-        
         if ( isset( $_POST['update'] ) ) {
             if ( function_exists( 'current_user_can' ) && !current_user_can( 'manage_options' ) ) {
                 die( 'Sorry, not allowed...' );
@@ -53,12 +49,11 @@ class SettingsController
             ];
             update_option( 'add-tiktok-advertising-pixel', $options );
             // update options
-            echo  '<div class="notice ttap-notice notice-success is-dismissible"><p><strong>' . esc_html__( 'Settings saved.' ) . '</strong></p></div>' ;
+            echo '<div class="notice ttap-notice notice-success is-dismissible"><p><strong>' . esc_html__( 'Settings saved.' ) . '</strong></p></div>';
         }
-        
         $options = new Option();
         $notification = new \Pagup\TiktokPixel\Controllers\NotificationController();
-        echo  $notification->support() ;
+        echo $notification->support();
         //set active class for navigation tabs
         $active_tab = ( isset( $_GET['tab'] ) && in_array( $_GET['tab'], $safe ) ? sanitize_key( $_GET['tab'] ) : 'settings' );
         //Plugin::dd($_POST);
@@ -67,9 +62,9 @@ class SettingsController
         $purchase_url = "options-general.php?page=ttap-pricing";
         $get_pro = sprintf( wp_kses( __( '<a href="%s">Get Pro version</a> to enable', 'add-tiktok-advertising-pixel' ), array(
             'a' => array(
-            'href'   => array(),
-            'target' => array(),
-        ),
+                'href'   => array(),
+                'target' => array(),
+            ),
         ) ), esc_url( $purchase_url ) );
         // Return Views
         if ( $active_tab == 'settings' ) {
@@ -95,4 +90,5 @@ class SettingsController
     }
 
 }
+
 $settings = new SettingsController();

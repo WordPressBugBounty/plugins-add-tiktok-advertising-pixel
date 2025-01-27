@@ -11,10 +11,10 @@ include 'inc/top.view.php';
             
 <div class="ttap-alert ttap-note" style="margin: 20px 0 0;">
 <i><h3><?php 
-echo  __( 'Growth Hacking made simple: a toolbox by Pagup.com', 'add-tiktok-advertising-pixel' ) ;
+echo __( 'Growth Hacking made simple: a toolbox by Pagup.com', 'add-tiktok-advertising-pixel' );
 ?></h3>
 <p><?php 
-echo  __( 'Today\'s fastest growing companies like Amazon, Airbnb and Facebook have all driven breakout growth by aligning their teams around a high velocity testing/learning process. We are talking about Growth Hacking. Growth hacking is a process of rapidly experimenting with and implementing marketing and promotional strategies that are solely focused on efficient and rapid business growth. Here is a list the best tools available online to skyrocket your growth.', 'add-tiktok-advertising-pixel' ) ;
+echo __( 'Today\'s fastest growing companies like Amazon, Airbnb and Facebook have all driven breakout growth by aligning their teams around a high velocity testing/learning process. We are talking about Growth Hacking. Growth hacking is a process of rapidly experimenting with and implementing marketing and promotional strategies that are solely focused on efficient and rapid business growth. Here is a list the best tools available online to skyrocket your growth.', 'add-tiktok-advertising-pixel' );
 ?></p></i>
 </div>
 <div class="ttap-growth">
@@ -203,11 +203,11 @@ echo  __( 'Today\'s fastest growing companies like Amazon, Airbnb and Facebook h
 
         <div class="ttap-alert ttap-note" style="margin: 20px 0;">
             <h2 style="font-size: 20px; text-align: center"><span class="dashicons dashicons-lock" style="font-size: 28px; margin-top: -3px;"></span>  &nbsp; <?php 
-echo  sprintf( wp_kses( __( '36 tools available with FREE version. Upgrade to <a href="%s">PRO version</a> to UNLOCK all 150+ Growth Hacking Tools', 'add-tiktok-advertising-pixel' ), array(
+echo sprintf( wp_kses( __( '36 tools available with FREE version. Upgrade to <a href="%s">PRO version</a> to UNLOCK all 150+ Growth Hacking Tools', 'add-tiktok-advertising-pixel' ), array(
     'a' => array(
-    'href' => array(),
-),
-) ), esc_url( "options-general.php?page=ttap-pricing" ) ) ;
+        'href' => array(),
+    ),
+) ), esc_url( "options-general.php?page=ttap-pricing" ) );
 ?></h2>
         </div>
 
