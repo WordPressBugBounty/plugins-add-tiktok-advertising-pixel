@@ -169,7 +169,7 @@ echo $get_pro . " " . __( 'on Woocommerce product pages.', 'add-tiktok-advertisi
 
                 <div class="ttap-alert ttap-note">
                     <?php 
-echo sprintf( wp_kses( __( 'Please note that, if you have activated this feature in order to track Add-to-cart, Checkout, ... events, you also need to create these events within your Tiktok Dashboard / Events Manager (otherwise it won\'t work). &nbsp;<a href="%s" target="_blank">More info</a>', 'pctag' ), array(
+echo sprintf( wp_kses( __( 'Please note that, if you have activated this feature in order to track Add-to-cart, Checkout, ... events, you also need to create these events within your Tiktok Dashboard / Events Manager (otherwise it won\'t work). &nbsp;<a href="%s" target="_blank">More info</a>', 'add-tiktok-advertising-pixel' ), array(
     'a' => array(
         'href'   => array(),
         'target' => array(),
@@ -239,7 +239,7 @@ echo sprintf( wp_kses( __( '<a href="%s">Get Pro version</a> to enable', 'add-ti
         'href'   => array(),
         'target' => array(),
     ),
-) ), esc_url( "options-general.php?page=ttap-pricing" ) ) . " " . sprintf( wp_kses( __( '"specific event pixels" on your Posts, Pages are managed with a &nbsp;<a href="%s" target="_blank">META BOX feature</a>', 'pctag' ), array(
+) ), esc_url( "options-general.php?page=ttap-pricing" ) ) . " " . sprintf( wp_kses( __( '"specific event pixels" on your Posts, Pages are managed with a &nbsp;<a href="%s" target="_blank">META BOX feature</a>', 'add-tiktok-advertising-pixel' ), array(
     'a' => array(
         'href'   => array(),
         'target' => array(),

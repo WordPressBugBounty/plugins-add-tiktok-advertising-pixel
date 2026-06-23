@@ -1,0 +1,483 @@
+# Translation of add-tiktok-advertising-pixel in Japanese
+# Copyright (C) 2026 Pagup
+# This file is distributed under the same license as the add-tiktok-advertising-pixel package.
+msgid ""
+msgstr ""
+"Project-Id-Version: add-tiktok-advertising-pixel 1.2.9\n"
+"Report-Msgid-Bugs-To: info@pagup.com\n"
+"POT-Creation-Date: 2026-06-22 19:18-0400\n"
+"PO-Revision-Date: 2026-06-22 23:30+0000\n"
+"Last-Translator: Pagup <info@pagup.com>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: admin/controllers/SettingsController.php:11
+#: premium/tiktok-advertising-pixel-premium/admin/controllers/SettingsController.php:13
+msgid "TikTok Pixel Settings"
+msgstr "TikTok ピクセル設定"
+
+#: admin/controllers/SettingsController.php:12
+#: premium/tiktok-advertising-pixel-premium/admin/controllers/SettingsController.php:14
+msgid "TikTok Pixel"
+msgstr "TikTok ピクセル"
+
+#: admin/controllers/SettingsController.php:52
+#: premium/tiktok-advertising-pixel-premium/admin/controllers/SettingsController.php:78
+msgid "Settings saved."
+msgstr "保存された設定。"
+
+#: admin/controllers/SettingsController.php:63
+#: admin/views/settings.view.php:237
+#: premium/tiktok-advertising-pixel-premium/admin/controllers/SettingsController.php:97
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:188
+#, php-format
+msgid "<a href=\"%s\">Get Pro version</a> to enable"
+msgstr "<a href=\"%s\">Proバージョン</a>を入手して有効にする"
+
+#: admin/views/faq.view.php:11
+#: premium/tiktok-advertising-pixel-premium/admin/views/faq.view.php:11
+msgid "How to check if Tiktok pixel is properly installed"
+msgstr "TikTok ピクセルが正しくインストールされているか確認する方法"
+
+#: admin/views/faq.view.php:13
+#: premium/tiktok-advertising-pixel-premium/admin/views/faq.view.php:13
+#, php-format
+msgid ""
+"Use <a href=\"%s\">TikTok pixel helper</a>: You can use TikTok Pixel Helper "
+"to check if your landing page is installed correctly and if the conversion "
+"event is triggered."
+msgstr "<a href=\"%s\">TikTok Pixel Helper</a> を使用します。TikTok Pixel Helper を使うと、ランディングページが正しくインストールされているか、コンバージョンイベントが発火しているかを確認できます。"
+
+#: admin/views/faq.view.php:19
+#: premium/tiktok-advertising-pixel-premium/admin/views/faq.view.php:19
+msgid "Where to find the Tiktok Pixel ID?"
+msgstr "TikTok ピクセル ID はどこで確認できますか？"
+
+#: admin/views/faq.view.php:22
+#: premium/tiktok-advertising-pixel-premium/admin/views/faq.view.php:22
+msgid "To find your Tiktok PIxel ID, follow the steps below."
+msgstr "TikTok ピクセル ID を確認するには、以下の手順に従ってください。"
+
+#: admin/views/faq.view.php:26
+#: premium/tiktok-advertising-pixel-premium/admin/views/faq.view.php:26
+msgid "Navigate to your Tiktok ads Plateform."
+msgstr "TikTok 広告プラットフォームに移動します。"
+
+#: admin/views/faq.view.php:27
+#: premium/tiktok-advertising-pixel-premium/admin/views/faq.view.php:27
+msgid "Got to Pixel Creation Portal: Library 》Conversion 》Website Pixel."
+msgstr "ピクセル作成ポータルに移動します: Library 》Conversion 》Website Pixel。"
+
+#: admin/views/faq.view.php:28
+#: premium/tiktok-advertising-pixel-premium/admin/views/faq.view.php:28
+msgid "Install."
+msgstr "インストール。"
+
+#: admin/views/faq.view.php:29
+#: premium/tiktok-advertising-pixel-premium/admin/views/faq.view.php:29
+msgid "Click « Create website pixel »."
+msgstr "« Create website pixel » をクリックします。"
+
+#: admin/views/faq.view.php:30
+#: premium/tiktok-advertising-pixel-premium/admin/views/faq.view.php:30
+msgid ""
+"Name your pixel. One pixel corresponds to one website with one pixel name"
+msgstr "ピクセルに名前を付けます。1つのピクセルは、1つのピクセル名を持つ1つのウェブサイトに対応します。"
+
+#: admin/views/faq.view.php:31
+#: premium/tiktok-advertising-pixel-premium/admin/views/faq.view.php:31
+msgid "Click \"Generate code\"."
+msgstr "\"Generate code\" をクリックします。"
+
+#: admin/views/faq.view.php:32
+#: premium/tiktok-advertising-pixel-premium/admin/views/faq.view.php:32
+#, php-format
+msgid ""
+"You will see, in your code, numbers like <a href=\"%s\">this</a> (in red). "
+"This is your Tiktok Pixel ID !."
+msgstr "コード内に <a href=\"%s\">このような</a> 数字（赤色）が表示されます。これが TikTok ピクセル ID です。"
+
+#: admin/views/growth-tools.view.php:14
+#: premium/tiktok-advertising-pixel-premium/admin/views/growth-tools.view.php:11
+msgid "Growth Hacking made simple: a toolbox by Pagup.com"
+msgstr "Growth Hacking をシンプルに: Pagup.com のツールボックス"
+
+#: admin/views/growth-tools.view.php:17
+#: premium/tiktok-advertising-pixel-premium/admin/views/growth-tools.view.php:12
+msgid ""
+"Today's fastest growing companies like Amazon, Airbnb and Facebook have all "
+"driven breakout growth by aligning their teams around a high velocity "
+"testing/learning process. We are talking about Growth Hacking. Growth "
+"hacking is a process of rapidly experimenting with and implementing "
+"marketing and promotional strategies that are solely focused on efficient "
+"and rapid business growth. Here is a list the best tools available online to "
+"skyrocket your growth."
+msgstr "Amazon、Airbnb、Facebook など、現在急成長している企業は、高速なテストと学習のプロセスにチームを合わせることで大きな成長を実現してきました。これが Growth Hacking です。Growth Hacking は、効率的で速い事業成長だけを目的として、マーケティング施策やプロモーション施策をすばやく実験し実装するプロセスです。成長を加速するために利用できる優れたオンラインツールを紹介します。"
+
+#: admin/views/growth-tools.view.php:206
+#: premium/tiktok-advertising-pixel-premium/admin/views/growth-tools.view.php:538
+#, php-format
+msgid ""
+"36 tools available with FREE version. Upgrade to <a href=\"%s\">PRO version</"
+"a> to UNLOCK all 150+ Growth Hacking Tools"
+msgstr "FREE 版で利用できる36個のツール。<a href=\"%s\">PRO 版</a>にアップグレードして、150以上の Growth Hacking ツールをすべて解除できます"
+
+#: admin/views/inc/promotions.view.php:8
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/promotions.view.php:8
+msgid "Boost your ranking on Search engines"
+msgstr "検索エンジンでのランキングを高める"
+
+#: admin/views/inc/promotions.view.php:17
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/promotions.view.php:17
+msgid "Optimize site's crawlability with an optimized robots.txt"
+msgstr "最適化された robots.txt でサイトのクロール性を改善します"
+
+#: admin/views/inc/promotions.view.php:23
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/promotions.view.php:23
+#, php-format
+msgid ""
+"Click <a href=\"%s\" target=\"_blank\">HERE</a> to Install <a href=\"%2s\" "
+"target=\"_blank\">Better Robots.txt plugin</a> to boost your robots.txt"
+msgstr "robots.txt を改善するには、<a href=\"%s\" target=\"_blank\">こちら</a>をクリックして <a href=\"%2s\" target=\"_blank\">Better Robots.txt plugin</a> をインストールしてください"
+
+#: admin/views/inc/promotions.view.php:44
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/promotions.view.php:44
+msgid "Boost your Alt texts"
+msgstr "ALT テキストを改善する"
+
+#: admin/views/inc/promotions.view.php:54
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/promotions.view.php:54
+msgid "Boost your ranking with optimized Alt tags"
+msgstr "最適化された ALT タグでランキングを高める"
+
+#: admin/views/inc/promotions.view.php:59
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/promotions.view.php:59
+#, php-format
+msgid ""
+"Click <a href=\"%s\" target=\"_blank\">HERE</a> to Install <a href=\"%2s\" "
+"target=\"_blank\">BIALTY Wordpress plugin</a> & auto-optimize all your alt "
+"texts for FREE"
+msgstr "すべての ALT テキストを無料で自動最適化するには、<a href=\"%s\" target=\"_blank\">こちら</a>をクリックして WordPress プラグイン <a href=\"%2s\" target=\"_blank\">BIALTY</a> をインストールしてください"
+
+#: admin/views/inc/promotions.view.php:80
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/promotions.view.php:80
+msgid "Boost your image title attribute"
+msgstr "画像の title 属性を改善する"
+
+#: admin/views/inc/promotions.view.php:89
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/promotions.view.php:89
+msgid ""
+"Optimize all your image title attributes for UX & search engines performance"
+msgstr "UX と検索エンジンのパフォーマンスのために、すべての画像 title 属性を最適化します"
+
+#: admin/views/inc/promotions.view.php:94
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/promotions.view.php:94
+#, php-format
+msgid ""
+"Click <a href=\"%s\" target=\"_blank\">HERE</a> to Install <a href=\"%2s\" "
+"target=\"_blank\">BIGTA</a> Wordpress plugin & auto-optimize all your image "
+"title attributes for FREE"
+msgstr "すべての画像 title 属性を無料で自動最適化するには、<a href=\"%s\" target=\"_blank\">こちら</a>をクリックして WordPress プラグイン <a href=\"%2s\" target=\"_blank\">BIGTA</a> をインストールしてください"
+
+#: admin/views/inc/promotions.view.php:115
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/promotions.view.php:115
+msgid "Looking for FREE unlimited content for SEO?"
+msgstr "SEO 用の無料で無制限のコンテンツをお探しですか？"
+
+#: admin/views/inc/promotions.view.php:124
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/promotions.view.php:124
+msgid ""
+"Get access to billions of non-indexed content with Video transcripts "
+"(Youtube)"
+msgstr "動画の文字起こし（YouTube）で、インデックスされていない膨大なコンテンツにアクセスできます"
+
+#: admin/views/inc/promotions.view.php:129
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/promotions.view.php:129
+#, php-format
+msgid ""
+"Click <a href=\"%s\" target=\"_blank\">HERE</a> to learn more about <a "
+"href=\"%2s\" target=\"_blank\">VidSEO</a> Wordpress plugin & how to "
+"skyrocket your SEO"
+msgstr "<a href=\"%s\" target=\"_blank\">こちら</a>をクリックして WordPress プラグイン <a href=\"%2s\" target=\"_blank\">VidSEO</a> と SEO を加速する方法について詳しく確認してください"
+
+#: admin/views/inc/side.view.php:2
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/side.view.php:2
+msgid "Boost your SEO with Meta Tags"
+msgstr "メタタグでSEOを強化"
+
+#: admin/views/inc/side.view.php:4
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/side.view.php:4
+msgid ""
+"Auto-populate custom SEO META Keywords everywhere on your website based on "
+"Post titles, Yoast/Rank Math Focus keywords, and more. Add custom META tags "
+"to help Search engines such as Google to understand additional information "
+"about the webpage (for ranking purposes)."
+msgstr "投稿タイトル、Yoast/Rank Math のフォーカスキーワードなどに基づいて、サイト全体のカスタム SEO META キーワードを自動入力します。カスタム META タグを追加し、Google などの検索エンジンがページの追加情報を理解できるようにします（ランキング目的）。"
+
+#: admin/views/inc/side.view.php:6
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/side.view.php:6
+msgid "Get Meta Tags for SEO »"
+msgstr "Meta Tags for SEO を入手 »"
+
+#: admin/views/inc/side.view.php:11
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/side.view.php:11
+msgid "Boost your SEO with Auto Links"
+msgstr "Auto Links で SEO を強化する"
+
+#: admin/views/inc/side.view.php:13
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/side.view.php:13
+msgid ""
+"Automatic Internal Links for SEO plugin creates and boosts your internal "
+"linking in 2 clicks, using Yoast / Rank Math Focus keywords as anchor text "
+"for internal link building."
+msgstr "Automatic Internal Links for SEO プラグインは、Yoast / Rank Math のフォーカスキーワードを内部リンクのアンカーテキストとして使用し、2クリックで内部リンクを作成して強化します。"
+
+#: admin/views/inc/side.view.php:15
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/side.view.php:15
+msgid "Get Automatic Internal Links for SEO &raquo;"
+msgstr "Automatic Internal Links for SEO を入手 &raquo;"
+
+#: admin/views/inc/side.view.php:20
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/side.view.php:20
+msgid "Boost your website ranking"
+msgstr "ウェブサイトのランキングを高める"
+
+#: admin/views/inc/side.view.php:22
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/side.view.php:22
+msgid ""
+"Optimize your Robots.txt with Better Robots.txt (made by PAGUP) & Boost your "
+"ranking on search engines."
+msgstr "Better Robots.txt（PAGUP製）を使用してRobots.txtを最適化し、検索エンジンでのランキングを上げます。"
+
+#: admin/views/inc/side.view.php:24
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/side.view.php:24
+msgid "Get Better Robots.txt »"
+msgstr "Better Robots.txt を入手 »"
+
+#: admin/views/inc/side.view.php:29
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/side.view.php:29
+msgid "Optimize your ALT TEXT"
+msgstr "代替テキストを最適化する"
+
+#: admin/views/inc/side.view.php:31
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/side.view.php:31
+msgid ""
+"Auto optimize all image alt texts (including Woocommerce online store), of "
+"your pages, posts &amp; products, from Yoast SEO optimization settings "
+"(keywords) and/or Post title."
+msgstr "WooCommerce ストアを含むページ、投稿、商品のすべての画像 alt テキストを、Yoast SEO の最適化設定や投稿タイトルから自動で最適化します。"
+
+#: admin/views/inc/side.view.php:33
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/side.view.php:33
+msgid "Get BIALTY by Pagup »"
+msgstr "BIALTY by Pagup を入手 »"
+
+#: admin/views/inc/side.view.php:37
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/side.view.php:37
+msgid "Optimize your Title TEXT"
+msgstr "TITLE テキストを最適化する"
+
+#: admin/views/inc/side.view.php:39
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/side.view.php:39
+msgid ""
+"Auto optimize all image title texts (including Woocommerce online store), of "
+"your pages, posts &amp; products, with Post title, Image name, website title "
+"etc."
+msgstr "WooCommerce ストアを含むページ、投稿、商品のすべての画像 title テキストを、投稿タイトル、画像名、サイトタイトルなどで自動最適化します。"
+
+#: admin/views/inc/side.view.php:41
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/side.view.php:41
+msgid "Get BIGTA by Pagup »"
+msgstr "BIGTA by Pagup を入手 »"
+
+#: admin/views/inc/side.view.php:45
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/side.view.php:45
+msgid "Instant Mobile Viewer"
+msgstr "インスタントモバイルビューア"
+
+#: admin/views/inc/side.view.php:47
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/side.view.php:47
+msgid ""
+"Instant mobile view of website (pages, posts, products) for responsive web "
+"design on phone (+ dualscreen). This plugin also offers helpful tools on "
+"each page, such as Facebook Debugger, LinkedIn Post Inspector, and Google "
+"Mobile-Friendly Test Tool."
+msgstr "電話（+デュアルスクリーン）でレスポンシブウェブデザインを行うためのウェブサイト（ページ、投稿、製品）のインスタントモバイルビュー。このプラグインは、Facebookデバッガー、LinkedIn Post Inspector、Google Mobile-Friendly Test Toolなど、各ページに役立つツールも提供します。"
+
+#: admin/views/inc/side.view.php:49
+#: premium/tiktok-advertising-pixel-premium/admin/views/inc/side.view.php:49
+msgid "Get Mobilook by Pagup »"
+msgstr "Mobilook by Pagup を入手 »"
+
+#: admin/views/metabox.view.php:3
+#: premium/tiktok-advertising-pixel-premium/admin/views/metabox.view.php:3
+msgid "Add Event-Specific Tiktok Pixel"
+msgstr "イベント専用 TikTok ピクセルを追加"
+
+#: admin/views/metabox.view.php:8 admin/views/settings.view.php:194
+#: premium/tiktok-advertising-pixel-premium/admin/views/metabox.view.php:8
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:144
+msgid "Custom Code"
+msgstr "カスタムコード"
+
+#: admin/views/metabox.view.php:12
+#: premium/tiktok-advertising-pixel-premium/admin/views/metabox.view.php:12
+msgid ""
+"Note: Make sure to check Add Event-Specific Tiktok Pixel and then copy-paste "
+"code in textarea. If you plan to use a Tiktok Advertising Pixel event on "
+"this page. Please read more details about Tiktok Advertising Pixel in FAQ"
+msgstr "注意: イベント専用 TikTok ピクセルを追加にチェックを入れてから、コードをテキストエリアにコピー＆ペーストしてください。このページで Tiktok Advertising Pixel イベントを使用する場合は、FAQ で Tiktok Advertising Pixel の詳細を確認してください。"
+
+#: admin/views/notices/support.view.php:4
+#: premium/tiktok-advertising-pixel-premium/admin/views/notices/support.view.php:4
+#, php-format
+msgid ""
+"Show support for Tiktok Advertising Pixel with a 5-star rating » <a "
+"href=\"%s\" target=\"_blank\">Click here</a>"
+msgstr "Tiktok Advertising Pixel を5つ星評価で応援する » <a href=\"%s\" target=\"_blank\">こちらをクリック</a>"
+
+#: admin/views/settings.view.php:20
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:15
+msgid "About TikTok Pixel"
+msgstr "TikTok ピクセルについて"
+
+#: admin/views/settings.view.php:23
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:16
+#, php-format
+msgid ""
+"Tiktok advertising pixel plugin allows you to easily create custom events on "
+"specific pages with a few clicks. Don't forget to check on your pages to "
+"find META BOX feature under WordPress post editor. If you have any doubt, "
+"please refer to <a href=\"%s\" target=\"_blank\">Tiktok documentation</a>. "
+"Enjoy."
+msgstr "Tiktok advertising pixel プラグインを使うと、数クリックで特定ページにカスタムイベントを簡単に作成できます。ページを確認し、WordPress 投稿エディター内の META BOX 機能を探してください。不明な場合は <a href=\"%s\" target=\"_blank\">TikTok ドキュメント</a> を参照してください。ご活用ください。"
+
+#: admin/views/settings.view.php:38
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:24
+msgid "TikTok Advertising Pixel"
+msgstr "TikTok Advertising Pixel"
+
+#: admin/views/settings.view.php:47
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:31
+msgid "Enable Tiktok Pixel"
+msgstr "TikTok ピクセルを有効化"
+
+#: admin/views/settings.view.php:64
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:44
+msgid "This feature will add the Tiktok Advertising Pixel to all pages"
+msgstr "この機能はすべてのページに TikTok ピクセルを追加します"
+
+#: admin/views/settings.view.php:76
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:54
+msgid "Tiktok Pixel ID"
+msgstr "TikTok ピクセル ID"
+
+#: admin/views/settings.view.php:93
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:65
+#, php-format
+msgid "Please Refer <a href=\"%s\">FAQ</a> to check your pixel."
+msgstr "ピクセルを確認するには <a href=\"%s\">FAQ</a> を参照してください。"
+
+#: admin/views/settings.view.php:107
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:71
+msgid ""
+"It seems you enabled Tiktok Advertising Pixel above but forgot to enter TAG "
+"ID. Please make sure to enter TAG ID otherwise it won't work."
+msgstr "上で Tiktok Advertising Pixel を有効にしたようですが、TAG ID の入力を忘れているようです。TAG ID を入力しないと動作しません。"
+
+#: admin/views/settings.view.php:125
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:85
+msgid "Tiktok Advertising Pixel on WooCommerce &lt;/Pro&gt;"
+msgstr "WooCommerce の Tiktok Advertising Pixel &lt;/Pro&gt;"
+
+#: admin/views/settings.view.php:135
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:93
+msgid "Enable Tiktok Pixel on your Online store"
+msgstr "オンラインストアで TikTok ピクセルを有効化"
+
+#: admin/views/settings.view.php:158
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:120
+msgid "on Woocommerce product pages."
+msgstr "WooCommerce 商品ページで。"
+
+#: admin/views/settings.view.php:172
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:131
+#, php-format
+msgid ""
+"Please note that, if you have activated this feature in order to track Add-"
+"to-cart, Checkout, ... events, you also need to create these events within "
+"your Tiktok Dashboard / Events Manager (otherwise it won't work). &nbsp;<a "
+"href=\"%s\" target=\"_blank\">More info</a>"
+msgstr "Add-to-cart、Checkout などのイベントを追跡するためにこの機能を有効にした場合、TikTok Dashboard / Events Manager 内でもこれらのイベントを作成する必要があります（そうしないと動作しません）。&nbsp;<a href=\"%s\" target=\"_blank\">詳細</a>"
+
+#: admin/views/settings.view.php:185
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:137
+msgid "Developer Mode &lt;/Pro&gt;"
+msgstr "開発者モード &lt;/Pro&gt;"
+
+#: admin/views/settings.view.php:215
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:166
+msgid "Developer mode."
+msgstr "開発者モード。"
+
+#: admin/views/settings.view.php:242
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:188
+#, php-format
+msgid ""
+"\"specific event pixels\" on your Posts, Pages are managed with a &nbsp;<a "
+"href=\"%s\" target=\"_blank\">META BOX feature</a>"
+msgstr "投稿やページの \"specific event pixels\" は &nbsp;<a href=\"%s\" target=\"_blank\">META BOX 機能</a> で管理されます"
+
+#: admin/views/settings.view.php:266
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:202
+msgid "Remove Settings"
+msgstr "設定を削除"
+
+#: admin/views/settings.view.php:284
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:216
+msgid "Save Changes"
+msgstr "変更内容を保存"
+
+#: admin/views/settings.view.php:294
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:224
+msgid ""
+"<strong>Note:</strong> once the codes are added, make sure to clear your "
+"cache."
+msgstr "<strong>注意:</strong> コードを追加したら、必ずキャッシュをクリアしてください。"
+
+#: admin/views/settings.view.php:304
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:232
+msgid "Tiktok Video Booster"
+msgstr "Tiktok Video Booster"
+
+#: admin/views/settings.view.php:313
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:239
+msgid ""
+"Looking for ways to boost the number of views of your Tiktok videos (and get "
+"more traffic on your Tiktok account)? You MUST try this Add-on."
+msgstr "TikTok 動画の視聴回数を増やし、TikTok アカウントへのトラフィックを増やす方法をお探しですか？このアドオンをぜひお試しください。"
+
+#: premium/tiktok-advertising-pixel-premium/admin/controllers/MetaboxController.php:17
+msgid "Tiktok Advertising Pixel Custom Event"
+msgstr "Tiktok Advertising Pixel カスタムイベント"
+
+#: premium/tiktok-advertising-pixel-premium/admin/views/settings.view.php:182
+#, php-format
+msgid ""
+"Tiktok specific event pixels on your Posts, Pages are managed with a &nbsp;"
+"<a href=\"%s\" target=\"_blank\">META BOX feature</a>"
+msgstr "投稿やページの TikTok 専用イベントピクセルは &nbsp;<a href=\"%s\" target=\"_blank\">META BOX 機能</a> で管理されます"
+
+#: premium/tiktok-advertising-pixel-premium/tiktok-advertising-pixel.php:92
+#: tiktok-advertising-pixel.php:91
+#, php-format
+msgid ""
+"Hey %1$s, %2$s Click on Allow & Continue to optimize your Tiktok pixel. %2$s "
+"Never miss an important update -- opt-in to our security and feature updates "
+"notifications. %2$s See you on the other side. Thanks"
+msgstr "こんにちは %1$s、%2$s TikTok ピクセルを最適化するには Allow & Continue をクリックしてください。%2$s 重要な更新を見逃さないように、セキュリティと機能更新の通知を受け取ってください。%2$s それではまた。ありがとうございます"
+

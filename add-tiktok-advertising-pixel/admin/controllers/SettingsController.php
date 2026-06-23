@@ -49,7 +49,7 @@ class SettingsController {
             ];
             update_option( 'add-tiktok-advertising-pixel', $options );
             // update options
-            echo '<div class="notice ttap-notice notice-success is-dismissible"><p><strong>' . esc_html__( 'Settings saved.' ) . '</strong></p></div>';
+            echo '<div class="notice ttap-notice notice-success is-dismissible"><p><strong>' . esc_html__( 'Settings saved.', 'add-tiktok-advertising-pixel' ) . '</strong></p></div>';
         }
         $options = new Option();
         $notification = new \Pagup\TiktokPixel\Controllers\NotificationController();
