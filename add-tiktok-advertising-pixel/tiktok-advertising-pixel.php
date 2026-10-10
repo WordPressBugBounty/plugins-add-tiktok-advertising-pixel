@@ -4,7 +4,7 @@
 * Plugin Name: Add Tiktok Advertising Pixel for Tiktok App
 * Description: Add Tiktok advertising pixel allows you to install Tiktok pixel properly on your website to track conversion & maximize ROI by ensuring your most important audiences see your ads.
 * Author: Pagup
-* Version: 1.2.10
+* Version: 1.2.11
 * Author URI: https://pagup.com/
 * Text Domain: add-tiktok-advertising-pixel
 * Domain Path: /languages/
@@ -28,7 +28,7 @@ if ( function_exists( 'ttap__fs' ) ) {
         if ( !defined( 'TTAP_PLUGIN_DIR' ) ) {
             define( 'TTAP_PLUGIN_DIR', plugins_url( '', __FILE__ ) );
         }
-        require 'vendor/autoload.php';
+        require_once __DIR__ . '/vendor/autoload.php';
         // Create a helper function for easy SDK access.
         function ttap__fs() {
             global $ttap__fs;

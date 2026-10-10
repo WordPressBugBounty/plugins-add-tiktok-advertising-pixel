@@ -3,8 +3,8 @@ Contributors: the-rock, pagup, freemius
 Tags: Tiktok, Conversion, Pixel, Tiktok Pixel, Retargeting
 Requires at least: 4.1
 Requires PHP: 5.6
-Tested up to: 7.0
-Stable tag: 1.2.10
+Tested up to: 7.1
+Stable tag: 1.2.11
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -99,6 +99,9 @@ Enjoy !
 2. Add Tiktok Pixel Settings Page
 
 == Changelog ==
+
+= 1.2.11 =
+* Updated Freemius SDK to the latest version
 
 = 1.2.10 =
 * Add 10 locale translation catalogues.
