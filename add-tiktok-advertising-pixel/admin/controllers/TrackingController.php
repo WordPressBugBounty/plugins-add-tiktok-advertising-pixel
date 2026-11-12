@@ -6,6 +6,33 @@ use Pagup\TiktokPixel\Core\Option;
 class TrackingController {
     public function __construct() {
         add_action( 'wp_head', array(&$this, 'tiktok_pixel') );
+        add_filter( 'is_protected_meta', array(&$this, 'protect_event_meta'), 10, 3 );
+        if ( is_multisite() ) {
+            add_filter( 'map_meta_cap', array(&$this, 'refuse_event_meta'), 10, 4 );
+        }
+    }
+
+    /**
+     * The per-post event flag and code belong to the plugin's own box:
+     * they are not available as custom fields of a post.
+     */
+    public function protect_event_meta( $protected, $meta_key, $meta_type = '' ) {
+        if ( ('post' === $meta_type || empty( $meta_type )) && ('ttap__event' === $meta_key || 'ttap__eventarea' === $meta_key) ) {
+            return true;
+        }
+        return $protected;
+    }
+
+    /**
+     * On a network, its administrators hold every capability that is not refused
+     * outright: adding, changing or deleting the plugin's per-post keys as custom
+     * fields is refused outright, for every user.
+     */
+    public function refuse_event_meta( $caps, $cap, $user_id = 0, $args = array() ) {
+        if ( ('add_post_meta' === $cap || 'edit_post_meta' === $cap || 'delete_post_meta' === $cap) && isset( $args[1] ) && in_array( $args[1], array('ttap__event', 'ttap__eventarea', '_ttap__event_seal'), true ) ) {
+            $caps[] = 'do_not_allow';
+        }
+        return $caps;
     }
 
     public function tiktok_pixel() {

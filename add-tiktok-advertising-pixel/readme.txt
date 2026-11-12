@@ -4,7 +4,7 @@ Tags: tiktok pixel, tiktok ads, tiktok, conversion tracking, woocommerce
 Requires at least: 4.1
 Requires PHP: 5.6
 Tested up to: 7.1
-Stable tag: 1.2.11
+Stable tag: 1.2.12
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -127,6 +127,9 @@ The plugin also uses Freemius, its licensing and update service, for Pro upgrade
 2. Settings page with the WooCommerce store option (Pro) and the option to remove settings on deactivation.
 
 == Changelog ==
+
+= 1.2.12 =
+* Security hardening of the per-page event code (Pro). An event code saved before this update may be inactive until the event is switched on and its code entered again in the event box of that page. Updated translations.
 
 = 1.2.11 =
 * Updated Freemius SDK to the latest version
